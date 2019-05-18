@@ -1,3 +1,5 @@
+/*
+
 # MyWebSite
 
 # Programmi di Laboratorio di Programmazione. Alunno: Bucchianico Enrico Ruggiero, 4^Finf.
@@ -33,3 +35,49 @@
 		- I paragrafi avranno colore "navy", distanza tra le parole 10px e prima riga con indentazione tre volte la dimensione standard dei caratteri;
 		- Gli elementi "h1" e "h2" avranno font "Cookie";
 		- Tutti gli altri elementi avranno font "Roboto".
+
+*/
+
+
+body
+{
+	font-size:14px;
+	background-color:#ffc;
+	font-weight:normal;
+	font-family:'Roboto',sans-serif;
+}
+
+h1
+{
+	color:teal;
+	text-align:center;
+	line-height:7em;
+}
+
+h2
+{
+	color:lime;
+}
+
+h1,h2 
+{
+	font-family:'Cookie',cursive;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+li
+{
+	color:#900;
+	margin-bottom:2em;
+}
+
+p 
+{
+	text-indent:3em;
+	word-spacing:10px;
+	color:navy;
+}
